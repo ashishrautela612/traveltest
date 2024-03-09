@@ -79,7 +79,7 @@ body {
 }
 @media (max-width: 500px) {
   .navBar {
-    padding: 13vmin 8vw 3vmax 8vw;
+    padding: 3vh 8vw 3vmax 8vw;
   }
   .navItems > i {
     display: block;
