@@ -113,8 +113,8 @@ body {
   padding: 11% 7% 7.6% 7%;
   font-family: "Cardo", serif;
   background-image: url(../images/imageTwo.png), url(../images/imageThree.png);
-  background-position: left -20rem top 16rem, right -1rem top 24rem;
-  background-size: 29rem 22rem, 6rem 17rem;
+  background-position: left -14rem top 16rem, right -1rem top 24rem;
+  background-size: 43rem 43rem, 6rem 17rem;
   background-repeat: no-repeat;
 }
 
@@ -149,7 +149,7 @@ body {
   font-size: 17px;
   border-radius: 6px;
   padding: 9px 55px;
-  margin-top: 25px;
+  margin-top: 37px;
   cursor: pointer;
   border: none;
 }
@@ -174,6 +174,72 @@ body {
   font-weight: bolder;
 }
 
+
+.memories{
+  background-color: #1e1e1e;
+    padding: 4% 35%;
+  font-family: "Cardo", serif;
+  background-image: url(../images/scribble_light_3.png),url(../images/scribble_light_2.png);
+  background-repeat: no-repeat;
+  background-position: left -3rem top 2rem, right -2rem bottom 3rem;
+
+}
+
+.meomoriesMainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meomoriesMainContainer > h1{
+  font-size: 48px;
+  line-height: 0.9;
+  color: white;
+  text-align: center;
+}
+
+.meomoriesMainContainer > p{
+  color: white;
+  text-align: justify;
+  font-size: 14px;
+  text-align-last: center;
+  margin-top: 17px;
+}
+
+.travelLogsBtn{
+  background-color: #1e1e1e;
+  color: white;
+  border: 2px solid white;
+  margin-top: 29px;
+  padding: 10px 46px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 600px) {
   .contactUs {
     display: none;
@@ -197,6 +263,7 @@ body {
 
   .landingPage {
     width: 100%;
+    background-size: 23rem 25rem, 6rem 17rem;
   }
 
   .homeContainer {
@@ -222,6 +289,7 @@ body {
   }
 
   .description {
+    text-align: center;
   }
   .reserveTicketBtn {
     font-size: 12px;
@@ -233,7 +301,27 @@ body {
   .imageContainer {
     width: 100%;
   }
+.memories{
+  width: 100%;
+    padding: 31% 2%;
+    background-size: 14rem 5rem, 12rem 4rem;
+}
+.meomoriesMainContainer{
 
+}
+
+.meomoriesMainContainer > h1{
+  display: inline-block;
+  font-size: 38px;
+}
+
+.meomoriesMainContainer > p{
+  padding: 0px 32px;
+}
+
+.travelLogsBtn{
+  padding: 5px 40px;
+}
 
 
 
