@@ -208,25 +208,49 @@ body {
   }
   .mainHeading {
     display: none;
-    font-size: 1.4em;
+    font-size: 1em;
     line-height: 1;
   }
   .mainHeadingBottom{
     display: inline-block;
-    font-size: 1.4em;
+    font-size: 1em;
     line-height: 1;
     margin-bottom: 21px;
     margin-block-start: 20;
     text-align: center;
   }
+
+  .description {
+  }
+  .reserveTicketBtn {
+    font-size: 12px;
+    padding: 9px 19px;
+  }
+  .displayImageContainer {
+    width: 100%;
+  }
+  .imageContainer {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
-.description {
-}
-.reserveTicketBtn {
-}
-.displayImageContainer {
-  width: 100%;
-}
-.imageContainer {
-  width: 100%;
-}
+
