@@ -216,6 +216,59 @@ body {
   font-size: 16px;
 }
 
+.travelsContainer{
+  width: 100%;
+  background-image: url(../images/scribble_dark_6.png),
+    url(../images/scribble_dark_5.png);
+  background-repeat: no-repeat;
+  background-position: left 0px top -4rem, right 0px top 20rem;
+  margin-top: 7%;
+  background-size: 2rem 47rem, 4rem 28rem;
+  font-family: "Cardo", serif;
+}
+.travels{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8% 7% 5% 8%;
+  flex-wrap: wrap;
+}
+
+.travel{
+  display: inline-block;
+  width: 31%;
+  box-shadow: 8px 7px 12px -5px rgba(0, 0, 0, 0.61);
+  padding-bottom: 10px;
+}
+
+.travelImageContainer{
+  width: 100%;
+  margin-bottom: 27px;
+}
+.travelImageContainer > img {
+  width: 100%;
+}
+.barLine{
+  height: 4px;
+  background-color: black;
+  width: 20%;
+  border-radius: 0px 6px 6px 0px;
+  margin-bottom: 20px;
+}
+
+.travelTitle{
+  width: 82%;
+  line-height: 1;
+  margin-bottom: 27px;
+}
+
+.travelDescription{
+  line-height: 1.3;
+  text-align: justify;
+  font-size: 13px;
+  font-weight: bold;
+}
+
 
 
 
@@ -321,6 +374,37 @@ body {
 
 .travelLogsBtn{
   padding: 5px 40px;
+}
+
+.travelsContainer{
+  width: 100%;
+  background-position: left 0px top -4rem, right 0px top 35rem;
+  background-size: 1.3rem 73rem, 1.2rem 68rem;
+}
+.travels{
+  flex-direction: column;
+}
+
+.travel{
+  width: 100%;
+  margin-bottom: 50px;
+  box-shadow: 8px 7px 12px -5px rgba(0, 0, 0, 0.61);
+}
+
+.travelImageContainer{
+
+}
+
+.barLine{
+
+}
+
+.travelTitle{
+margin-bottom: 12px;
+}
+
+.travelDescription{
+  
 }
 
 
