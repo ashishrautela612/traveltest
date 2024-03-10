@@ -6,15 +6,21 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Cardo", serif;
+  /* font-family: "Cardo", serif; */
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
 
 html,
 body {
   width: 100%;
   height: 100%;
+  background-color: #eceaeb;
+
 }
 
 .main {
@@ -27,17 +33,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 13vh 9vw 1vh 9vw;
+  flex-wrap: wrap;
+  position: fixed;
+  padding: 4rem 7rem 0rem 5rem;
   border-radius: 5px;
   box-shadow: -2px 7px 5px -6px rgba(0, 0, 0, 0.61);
+  width: 100%;
+  background-color: #eceaeb;
+
+  /* height: 115px; */
 }
 .navItems {
   display: flex;
   align-items: center;
-  gap: 7vw;
+  flex-wrap: wrap;
+  gap: 2vw;
   color: rgb(100, 93, 93);
   font-size: 19px;
   padding: 5px 18px;
+  transition: all 0.5s ease-in-out;
 }
 #contactUsNav {
   display: none;
@@ -47,7 +61,7 @@ body {
   display: none;
 }
 .contactUsBtn {
-  border: 3px solid #2d2d2d;
+  border: 3px solid #040303;
   border-radius: 7px;
 }
 
@@ -58,7 +72,7 @@ body {
     display: none;
 } */
 .contactUsBtn > h3 {
-  padding: 1vh 2vmax;
+  padding: 1vh 3vmax;
   color: #2d2d2d;
   border: none;
   cursor: pointer;
@@ -72,34 +86,98 @@ body {
 
 #home {
   color: black;
-  padding: 5px 18px;
+  font-weight: bolder;
 }
+
+
+.navItems > a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 22px;
+}
+
 .navItems > a {
-  color: #2d2d2d;
+  padding: 5px 18px;
+  transition: all 0.5s ease-in-out;
+  color: rgb(100, 93, 93);
 }
-@media (max-width: 500px) {
-  .navBar {
-    padding: 0.5vh 4vw 2vmax 4vw;
-  }
-  .navItems > i {
-    display: block;
-    font-size: 6vmax;
-  }
+#home:hover{
+  color: white;
+  border-radius: 22px;
+}
 
-  .navItems a {
+#phoneIcon{
+  display: none;
+  color: black;
+}
+
+.landingPage{   
+  padding: 11rem 7rem 7.6rem 7rem;
+  font-family: "Cardo", serif;
+  background-image: url(../images/imageTwo.png), url(../images/imageThree.png);
+  background-position: left -20rem top 15rem, right -2.5rem top 21rem;
+  background-repeat: no-repeat;
+}
+
+.homeContainer{
+  display: flex;
+    align-items: normal;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 131px;
+}
+
+.mainDescription{
+  width: 37%;
+}
+.mainHeading{
+  font-size: 34px;
+    line-height: 66px;
+    font-weight: bolder;
+}
+
+.description{
+  font-size: 14px;
+    padding-top: 17px;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.reserveTicketBtn{
+  background-color: #2f2f2f;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 6px;
+    padding: 9px 55px;
+    margin-top: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+.displayImageContainer{
+  width: 50%;
+}
+
+.imageContainer{
+  width: 100%;
+  height: 100%;
+}
+.imageContainer > img{
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:600px) {
+  .contactUsBtn{
     display: none;
   }
 
-  .contactUs > button {
-    display: none;
-  }
-  .ri-menu-3-line {
-    display: block;
-    font-size: 6vmin;
-  }
-  #logoItem {
-    display: block;
-    font-size: 7vmin;
-    color: black;
+  .navBar{
+    padding: 0.3rem 1rem;
   }
 }
+
+
+
+ 
