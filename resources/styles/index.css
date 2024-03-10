@@ -39,6 +39,7 @@ body {
   box-shadow: -2px 7px 5px -6px rgba(0, 0, 0, 0.61);
   width: 100%;
   background-color: #eceaeb;
+  z-index: 10;
 
   /* height: 115px; */
 }
@@ -339,13 +340,15 @@ body {
 
 .leftFeatureContainer{
   width: 42%;
+  position: relative;
 
 }
 .leftFeatureContainer > img {
-  position: relative;
-    bottom: 416px;
-    right: 28px;
-    height: 204px;
+  position: absolute;  
+    bottom: 27%;
+    right: 92%;
+    height: 41%;
+ 
 }
 .leftFeatureContainerImage{
   width: 100%;
@@ -396,8 +399,19 @@ padding: 8px 0px 0px 0px;
     left: 426px;
     height: 104px;
 }
+.rightFeatureContainerNormalTextUp{
+  display: none;
+  width: 57%;
+font-size: 16px;
+font-weight: bold;
+padding: 8px 0px 0px 0px;
+}
 
-
+.rightFeatureContainerNormalTextUp > div {
+  line-height: 1.4;
+    text-align: justify;
+    margin-bottom: 28px;
+}
 
 
 
@@ -540,11 +554,12 @@ margin-bottom: 12px;
 }
 
 .visitPlaces{
-
+  padding: 0% 7% 5% 8%;
 }
 
-.seeNewplaces{
 
+.seeNewplaces{
+    gap: 10px;
 }
 
 .icon{
@@ -552,26 +567,41 @@ margin-bottom: 12px;
 }
 
 .phrase{
-
+  padding: 0% 0%;
+  width: 100%;
 }
 
+.phrase > h1{
+  font-size: 33px;
+  line-height: 1.3;
+}
+
+.phrase span {
+  font-size: 34px;
+}
+#tape{
+  display: none;
+}
 .phraseDesc{
 
 }
 
 .featuredPlaceContainer{
-
+flex-direction: column;
+margin-top: 25px;
 }
 
 .leftFeatureContainer{
-
+width: 100%;
 }
 
 .leftFeatureContainerImage{
 
 }
 .rightFeatureContainer{
-  
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .rightFeatureContainerImage{
@@ -579,19 +609,25 @@ margin-bottom: 12px;
 }
 
 .rightFeatureContainerText{
-
+  flex-direction: column;
 }
 
 .rightFeatureContainerBold{
-
+width: 100%;
+margin-bottom: 25px;
 }
 
 .rightFeatureContainerNormalText{
-
+width: 100%;
+display: none;
 }
 
 .arrow{
-  
+  display: none;
+}
+.rightFeatureContainerNormalTextUp{
+  display: block;
+  width: 100%;
 }
 
 
