@@ -254,6 +254,7 @@ body {
   width: 20%;
   border-radius: 0px 6px 6px 0px;
   margin-bottom: 20px;
+  transition: all 0.5s;
 }
 
 .travelTitle{
@@ -269,6 +270,99 @@ body {
   font-weight: bold;
 }
 
+.travels .travel:hover {
+  transform: translateY(-10px);
+  transform: scale(1.019,1.019)
+}
+.travel:hover .barLine{
+  width: 80%;
+}
+
+.visitOuter{
+  width: 100%;
+  background-image: url(../images/scribble_dark_4.png),
+    url(../images/scribble_lightest.png);
+  background-repeat: no-repeat;
+  background-position: left 21rem top 34rem, right 0px top 2rem;
+  background-size: 15rem 5rem, 16rem 44rem;
+  padding-bottom: 50px;
+  font-family: "Cardo", serif;
+
+}
+
+.visitPlaces{
+  /* width: 84.6%;
+  margin: auto; */
+  padding: 8% 7% 5% 8%;
+  padding-top: 18%;
+
+}
+
+.seeNewplaces{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 45px;
+}
+
+.icon{
+  /* margin-bottom: 45px; */
+}
+.icon > img {
+  height: 44px;
+}
+.phrase{
+  padding: 0% 27%;
+  line-height: 1;
+}
+.phrase > h1{
+  font-size: 62px;
+}
+.phrase span {
+  font-style: oblique;
+  text-decoration: underline;
+  font-size: 77px;
+}
+.phraseDesc{
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.featuredPlaceContainer{
+
+}
+
+.leftFeatureContainer{
+
+}
+
+.leftFeatureContainerImage{
+
+}
+.rightFeatureContainer{
+  
+}
+
+.rightFeatureContainerImage{
+
+}
+
+.rightFeatureContainerText{
+
+}
+
+.rightFeatureContainerBold{
+
+}
+
+.rightFeatureContainerNormalText{
+
+}
+
+.arrow{
+
+}
 
 
 
@@ -404,6 +498,65 @@ margin-bottom: 12px;
 }
 
 .travelDescription{
+  
+}
+
+.visitOuter{
+
+}
+
+.visitPlaces{
+
+}
+
+.seeNewplaces{
+
+}
+
+.icon{
+
+}
+
+.phrase{
+
+}
+
+.phraseDesc{
+
+}
+
+.featuredPlaceContainer{
+
+}
+
+.leftFeatureContainer{
+
+}
+
+.leftFeatureContainerImage{
+
+}
+.rightFeatureContainer{
+  
+}
+
+.rightFeatureContainerImage{
+
+}
+
+.rightFeatureContainerText{
+
+}
+
+.rightFeatureContainerBold{
+
+}
+
+.rightFeatureContainerNormalText{
+
+}
+
+.arrow{
   
 }
 
