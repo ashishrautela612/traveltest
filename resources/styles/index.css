@@ -413,7 +413,57 @@ padding: 8px 0px 0px 0px;
     margin-bottom: 28px;
 }
 
+.travelLocation{
+  width: 100%;
+  background-color: #1e1e1e;
+  padding-bottom: 25px;
+  background-image: url(../images//scribble_light.png);
+  background-repeat: no-repeat;
+  background-position: left -1rem bottom -1rem;
+  background-size: 26rem 6rem;
+  color: white;
 
+}
+
+.travelll{
+  justify-content: space-between;
+  display: flex;
+  padding: 8% 0% 0% 8%;
+
+}
+
+.travelLeft{
+  width: 33%;
+}
+
+.travelheading{
+  font-size: 23px;
+  color: white;
+  line-height: 1.1;
+  font-weight: bolder;
+  margin-bottom: 95px;
+}
+.travellDescription{
+  margin-bottom: 51px;
+    line-height: 1.36;
+}
+.travelRightContainer{
+  width: 60%;
+}
+
+.travelDescription > h2{
+margin-bottom: 15px;
+}
+
+.travelDescription > p{
+  font-size: 14px;
+}
+.travelRightImageContainer{
+  width: 100%;
+}
+.travelRightImageContainer > img{
+  width: 100%;
+}
 
 
 
@@ -629,6 +679,33 @@ display: none;
   display: block;
   width: 100%;
 }
+
+.travelLocation{
+  
+}
+
+.travelll{
+
+}
+
+.travelLeft{
+
+}
+
+.travelheading{
+
+}
+.travellDescription{
+
+}
+.travelRightContainer{
+
+}
+
+.travelRightImageContainer{
+  
+}
+
 
 
 
