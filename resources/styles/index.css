@@ -113,7 +113,8 @@ body {
   padding: 11% 7% 7.6% 7%;
   font-family: "Cardo", serif;
   background-image: url(../images/imageTwo.png), url(../images/imageThree.png);
-  background-position: left -20% top 15%, right -2.5% top 21%;
+  background-position: left -20rem top 16rem, right -1rem top 24rem;
+  background-size: 29rem 22rem, 6rem 17rem;
   background-repeat: no-repeat;
 }
 
