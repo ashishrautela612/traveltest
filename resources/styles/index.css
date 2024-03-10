@@ -428,7 +428,7 @@ padding: 8px 0px 0px 0px;
 .travelll{
   justify-content: space-between;
   display: flex;
-  padding: 8% 0% 0% 8%;
+  padding: 8% 0% 1% 8%
 
 }
 
@@ -441,11 +441,12 @@ padding: 8px 0px 0px 0px;
   color: white;
   line-height: 1.1;
   font-weight: bolder;
-  margin-bottom: 95px;
+  margin-bottom: 129px;
 }
 .travellDescription{
   margin-bottom: 51px;
     line-height: 1.36;
+    text-align: justify;
 }
 .travelRightContainer{
   width: 60%;
@@ -534,7 +535,7 @@ margin-bottom: 15px;
   }
 
   .description {
-    text-align: center;
+    text-align: justify;
   }
   .reserveTicketBtn {
     font-size: 12px;
@@ -596,7 +597,7 @@ margin-bottom: 12px;
 }
 
 .travelDescription{
-  
+  width: 90%;
 }
 
 .visitOuter{
@@ -681,29 +682,35 @@ display: none;
 }
 
 .travelLocation{
-  
+  background-position: left -1rem bottom -1rem;
+  background-size: 13rem 4rem;
 }
 
 .travelll{
-
+  flex-direction: column;
+  padding: 8% 0% 10% 8%;
 }
 
 .travelLeft{
-
+width: 100%;
 }
 
 .travelheading{
-
+  font-size: 20px;
+  margin-bottom: 27px;
 }
 .travellDescription{
-
+width: 90%;
 }
 .travelRightContainer{
-
+width: 100%;
 }
 
 .travelRightImageContainer{
-  
+  width: 100%;
+}
+.travelRightImageContainer > img {
+  width: 100%;
 }
 
 
