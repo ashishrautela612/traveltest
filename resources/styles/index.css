@@ -534,6 +534,108 @@ margin-bottom: 15px;
 }
 
 
+.aboutUs{
+  padding: 4% 7% 0% 8%;
+  font-family: "Cardo", serif;
+  background-image: url(../images/scribble_dark_2.png), url(../images/scribble_dark_3.png);
+  background-repeat: no-repeat;
+  background-position: left 0rem top 7rem, right 0rem bottom 4rem;
+  background-size: 18rem 8rem, 23rem 6rem;
+  padding-top: 10%;
+  padding-bottom: 13%;
+}
+
+.aboutSection{
+
+}
+.feedBackHeading{
+  text-align: center;
+  line-height: 1;
+  padding: 0% 26%;
+}
+
+.feedBackHeading > h1{
+  font-size: 66px;
+}
+
+.feedBackCardContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  display: inline-block;
+  width: 32%;
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 7%;
+  border-radius: 12px;
+  padding-bottom: 4%;
+}
+
+#firstCard{
+position: relative;
+}
+
+.rightArrow{
+  position: absolute;
+  top: 147px;
+  left: -23px;
+  left: -41px;
+  border: 2px solid black;
+  padding: 0px 13px;
+  border-radius: 8px;
+  font-size: 47px;
+  background-color: #eceaeb;
+}
+
+.cardIconContainer{
+  width: 33%;
+  margin: auto;
+  padding-top: 18%;
+}
+.iconContainer{
+
+}
+
+.iconContainer > img {
+
+}
+
+.customerName{
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.customerDescription{
+  margin-top: 20px;
+  font-size: 13px;
+  padding: 0 5%;
+  padding-bottom: 2%;
+  font-weight: 600;
+  text-align-last: center;
+}
+
+#secondCard{
+
+}
+
+#thirdCard{
+position: relative;
+}
+
+.leftArrow{
+  position: absolute;
+  top: 147px;
+  right: -41px;
+  border: 2px solid black;
+  padding: 0px 13px;
+  border-radius: 8px;
+  font-size: 47px;
+  background-color: #eceaeb;
+}
+
 
 
 
@@ -867,6 +969,74 @@ margin-bottom: 22px;
 .faqRight > img {
   width: 100%;
 }
+
+.aboutUs{
+  padding: 27% 7% 25% 8%;
+  background-position: left 0rem top 1rem, right 0rem bottom 1rem;
+  background-size: 11rem 5rem, 11rem 4rem;
+}
+
+.aboutSection{
+
+}
+.feedBackHeading{
+  width: 100%;
+  padding: 0% 0%;
+}
+
+.feedBackHeading > h1{
+  display: inline-block;
+  font-size: 46px;
+  width: 100%;
+}
+
+.feedBackCardContainer{
+  flex-direction: column;
+}
+
+.card{
+width: 100%;
+}
+
+#firstCard{
+
+}
+
+.rightArrow{
+display: none;
+}
+
+.cardIconContainer{
+
+}
+.iconContainer{
+
+}
+
+.iconContainer > img {
+
+}
+
+.customerName{
+
+}
+
+.customerDescription{
+
+}
+
+#secondCard{
+
+}
+
+#thirdCard{
+
+}
+
+.leftArrow{
+display: none;
+}
+
 
 
 
