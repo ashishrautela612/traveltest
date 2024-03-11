@@ -188,6 +188,8 @@ body {
 
 .meomoriesMainContainer{
   display: flex;
+  /* /new wrap */
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
@@ -305,6 +307,8 @@ body {
   text-align: center;
   justify-content: center;
   gap: 45px;
+   /* /new wrap */
+   flex-wrap: wrap;
 }
 
 .icon{
@@ -336,6 +340,8 @@ body {
   /* justify-content: space-between; */
   gap: 43px;
   margin-top: 140px;
+   /* /new wrap */
+   flex-wrap: wrap;
 }
 
 .leftFeatureContainer{
@@ -372,6 +378,8 @@ margin-bottom: 25px;
   display: flex;
   justify-content: space-between;
   align-items: start;
+   /* /new wrap */
+   flex-wrap: wrap;
 }
 
 .rightFeatureContainerBold{
@@ -428,7 +436,9 @@ padding: 8px 0px 0px 0px;
 .travelll{
   justify-content: space-between;
   display: flex;
-  padding: 8% 0% 1% 8%
+  padding: 8% 0% 1% 8%;
+   /* /new wrap */
+   flex-wrap: wrap;
 
 }
 
@@ -474,6 +484,8 @@ margin-bottom: 15px;
 
 .fAQcontainer{
   display: flex;
+   /* /new wrap */
+   flex-wrap: wrap;
   /* padding: 4% 7% 0% 8%; */
   justify-content: space-between;
   padding: 100px 0 140px 0;
@@ -560,6 +572,8 @@ margin-bottom: 15px;
 
 .feedBackCardContainer{
   display: flex;
+   /* /new wrap */
+   flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -636,10 +650,75 @@ position: relative;
   background-color: #eceaeb;
 }
 
+.contactForm{
+  padding: 0% 7% 4% 8%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Cardo", serif;
 
+}
 
+.form{
+width: 45%;
+}
 
+.form > h1{
+  font-size: 73px;
+    width: 88%;
+    margin-bottom: 28px;
+    font-weight: bolder;
+}
+.feedBackForm{
 
+}
+.feesBackForm > input,textarea{
+  width: 88%;
+}
+
+input, textarea {
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 17px;
+  width: 88%;
+}
+
+input[type="text"]{
+margin-bottom: 23px;
+}
+
+textarea{
+resize: none;
+    margin-bottom: 40px;
+    padding: 10px 0px 27px 10px;
+}
+
+.formSideImage{
+width: 52%;
+}
+
+.formSideImage > img {
+  width: 100%;
+}
+
+input {
+  padding: 10px 0px 10px 10px;
+  
+
+}
+input[type="submit"]{
+  background-color: #2f2f2f;
+  color: white;
+  padding: 14px 0;
+  margin-top: 24px;
+}
+input::placeholder {
+  color: black;  
+}
+
+textarea::placeholder{
+  color:black;
+}
 
 
 
@@ -1035,6 +1114,40 @@ display: none;
 
 .leftArrow{
 display: none;
+}
+
+
+
+
+
+.contactForm{
+
+}
+
+.form{
+width: 100%;
+}
+
+.form > h1{
+  font-size: 35px;
+}
+.feedBackForm{
+
+}
+
+input{
+
+}
+
+textarea{
+
+}
+
+.formSideImage{
+  display: none;
+}
+input[type="submit"]{
+  margin-top: 15px;
 }
 
 
