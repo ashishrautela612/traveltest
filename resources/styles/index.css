@@ -1092,6 +1092,9 @@ width: 100%;
 .faqLeft > h1{
   font-size: 34px;
   margin-bottom: 30px;
+  text-decoration: underline;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .mainLeft{
@@ -1265,7 +1268,7 @@ background: none;
 }
 
 .combine{
-  width: 16%
+  width: 21%
 }
 
 .footerMain > p{
